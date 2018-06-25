@@ -1,0 +1,27 @@
+{
+  "name": "hope/mapper",
+  "description": "Hope Framework class mapping library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shvorak Alexey",
+      "email": "dr.emerido@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hope\\Mapper\\" : "dist/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hope\\MapperTest\\" : "tests/"
+    }
+  }
+}
